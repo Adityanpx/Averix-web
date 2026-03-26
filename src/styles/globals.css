@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1A2340;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-indigo: #4F46E5;
+  --color-indigo-light: #EEF2FF;
+  --color-indigo-dark: #3730A3;
+  --color-teal: #0ABFA3;
+  --color-teal-light: #F0FDFB;
+  --color-teal-dark: #0891B2;
+  --color-coral: #FF6B6B;
+  --color-dark: #1A2340;
+  --color-body: #4A5568;
+  --color-muted: #9AA3B2;
+  --color-border: #E2E8F0;
+  --color-hero: #EEF2FA;
+  --color-soft: #F5F7FB;
+  --font-family-syne: 'Syne', sans-serif;
+  --font-family-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --font-family-mono: 'Space Mono', monospace;
+  --max-width-container: 1180px;
+  --shadow-card: 0 4px 24px rgba(79,70,229,0.08);
+  --shadow-card-hover: 0 12px 40px rgba(79,70,229,0.16);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #1A2340;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4F46E5;
+  border-radius: 3px;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+/* Custom utilities */
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-mono {
+  font-family: 'Space Mono', monospace;
+}
+
+.max-w-container {
+  max-width: 1180px;
+}
+
+.teal-underline {
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: #0ABFA3;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.shadow-card {
+  box-shadow: 0 4px 24px rgba(79,70,229,0.08);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 12px 40px rgba(79,70,229,0.16);
+}
+
+/* Custom colors */
+.bg-hero {
+  background-color: #EEF2FA;
+}
+
+.bg-soft {
+  background-color: #F5F7FB;
+}
