@@ -21,7 +21,7 @@ export default function Testimonials() {
     <section id="testimonials" className="bg-hero py-24 px-6 md:px-16 lg:px-24">
       <div className="max-w-container mx-auto">
         <FadeUp className="text-center mb-16">
-          <h2 className="font-syne font-bold text-4xl md:text-5xl text-dark">Loved by our clients</h2>
+          <h2 className="font-bold text-4xl md:text-5xl text-dark">Loved by our clients</h2>
           <span className="teal-underline mx-auto" />
         </FadeUp>
 
@@ -42,7 +42,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                 className="bg-white rounded-2xl shadow-card p-10 lg:p-12 text-center relative"
               >
-                <div className="text-7xl font-syne text-indigo/20 leading-none absolute top-4 left-8">"</div>
+                <div className="text-7xl text-indigo/20 leading-none absolute top-4 left-8">"</div>
                 <div className="flex justify-center mb-6">
                   {[1,2,3,4,5].map(i => (
                     <Star key={i} size={16} className={i <= Math.round(reviews[active].rating) ? 'text-yellow-400 fill-yellow-400' : 'text-muted'} />
@@ -57,7 +57,7 @@ export default function Testimonials() {
                     {reviews[active].initials}
                   </div>
                   <div className="text-left">
-                    <p className="font-syne font-bold text-dark text-sm">{reviews[active].name}</p>
+                    <p className="font-bold text-dark text-sm">{reviews[active].name}</p>
                     <p className="text-muted text-xs uppercase tracking-wide">{reviews[active].role}</p>
                   </div>
                 </div>

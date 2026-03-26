@@ -358,7 +358,7 @@ function RowInner({ product, isEven, ratingRef, ratingInView, deviceRef, deviceO
           ))}
         </div>
 
-        <h3 className="font-syne font-bold text-2xl md:text-3xl text-dark">{product.fullName}</h3>
+        <h3 className="font-bold text-2xl md:text-3xl text-dark">{product.fullName}</h3>
         <span className="teal-underline" />
         <p className="text-body leading-relaxed text-lg">{product.description}</p>
 
@@ -513,7 +513,7 @@ export default function Products() {
         <div className="max-w-container mx-auto">
           <FadeUp>
             <span className="text-teal text-sm font-semibold uppercase tracking-widest">Our Work</span>
-            <h2 className="font-syne font-extrabold text-4xl md:text-5xl text-dark mt-2">
+            <h2 className="font-extrabold text-4xl md:text-5xl text-dark mt-2">
               Real Products. Real Impact.
             </h2>
             <span className="teal-underline" />

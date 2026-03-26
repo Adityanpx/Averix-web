@@ -40,7 +40,7 @@ export default function Pricing() {
     <section id="pricing" className="bg-white py-24 px-6 md:px-24 lg:px-56">
       <div className="max-w-container mx-auto">
         <FadeUp className="text-center mb-16">
-          <h2 className="font-syne font-bold text-4xl md:text-5xl text-dark">Pricing for every stage</h2>
+          <h2 className="font-bold text-4xl md:text-5xl text-dark">Pricing for every stage</h2>
           <span className="teal-underline mx-auto" />
         </FadeUp>
 
@@ -59,7 +59,7 @@ export default function Pricing() {
                 )}
                 <div className="mb-6">
                   <p className="text-muted text-sm uppercase tracking-widest font-semibold mb-2">{plan.label}</p>
-                  <h3 className="font-syne font-bold text-2xl text-dark">{plan.name}</h3>
+                  <h3 className="font-bold text-2xl text-dark">{plan.name}</h3>
                 </div>
                 <div className="mb-6">
                   <span className="font-mono font-bold text-3xl text-dark">{plan.price}</span>

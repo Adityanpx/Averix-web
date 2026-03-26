@@ -341,7 +341,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 32 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="font-syne font-extrabold leading-[1.08]"
+              className="font-arial font-extrabold leading-[1.08]"
               style={{ fontSize: 'clamp(1.9rem, 3.6vw, 2.9rem)', color: '#0F172A' }}
             >
               Turning Ideas Into<br />
@@ -382,7 +382,7 @@ export default function Hero() {
               ].map((s, i) => (
                 <div key={s.label} className="text-center md:text-left">
                   <motion.div
-                    className="font-syne font-extrabold text-2xl"
+                    className="font-extrabold text-2xl"
                     style={{ color: '#4F46E5', animation: `countUp 0.5s ease ${0.8 + i * 0.12}s both`, opacity: 0 }}
                   >
                     {s.val}
@@ -457,7 +457,7 @@ export default function Hero() {
               <p className="text-[10px] font-semibold uppercase tracking-widest" style={{ color: '#94A3B8' }}>
                 Projects Deployed
               </p>
-              <p className="font-syne font-extrabold text-2xl" style={{ color: '#4F46E5' }}>
+              <p className="font-extrabold text-2xl" style={{ color: '#4F46E5' }}>
                 5 Live
               </p>
             </motion.div>

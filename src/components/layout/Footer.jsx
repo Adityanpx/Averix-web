@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="space-y-6">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-indigo flex items-center justify-center">
-              <span className="font-syne font-bold text-white text-sm">Z</span>
+              <span className="font-bold text-white text-sm">Z</span>
             </div>
-            <span className="font-syne font-bold text-dark text-lg">ZenTech Softwares</span>
+            <span className="font-bold text-dark text-lg">ZenTech Softwares</span>
           </div>
           <p className="text-body text-sm leading-relaxed max-w-xs">
             We are a software studio based in India, passionate about building tools that help businesses grow in the digital era.
@@ -34,7 +34,7 @@ export default function Footer() {
 
         {/* Menu */}
         <div>
-          <h4 className="font-syne font-bold text-dark mb-6">Menu</h4>
+          <h4 className="font-bold text-dark mb-6">Menu</h4>
           <ul className="space-y-3">
             {menuLinks.map((link) => (
               <li key={link}>
@@ -46,7 +46,7 @@ export default function Footer() {
 
         {/* Information */}
         <div>
-          <h4 className="font-syne font-bold text-dark mb-6">Information</h4>
+          <h4 className="font-bold text-dark mb-6">Information</h4>
           <ul className="space-y-3">
             {infoLinks.map((link) => (
               <li key={link}>

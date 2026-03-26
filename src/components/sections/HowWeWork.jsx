@@ -16,7 +16,7 @@ export default function HowWeWork() {
     <section id="process" className="bg-soft py-24 px-6 md:px-16 lg:px-24">
       <div className="max-w-container mx-auto">
         <FadeUp className="text-center mb-16">
-          <h2 className="font-syne font-bold text-4xl md:text-5xl text-dark">
+          <h2 className="font-bold text-4xl md:text-5xl text-dark">
             From your idea to live product
           </h2>
           <span className="teal-underline mx-auto" />
@@ -37,7 +37,7 @@ export default function HowWeWork() {
                       {i + 1}
                     </span>
                   </div>
-                  <h4 className="font-syne font-bold text-dark text-sm mb-2">{step.title}</h4>
+                  <h4 className="font-bold text-dark text-sm mb-2">{step.title}</h4>
                   <p className="text-muted text-xs leading-relaxed">{step.desc}</p>
                 </div>
               </FadeUp>

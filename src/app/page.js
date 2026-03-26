@@ -26,7 +26,7 @@ export default function Home() {
         <Stats />
         <HowWeWork />
         <Testimonials />
-        <Pricing />
+        {/* <Pricing /> */}
         <CTABanner />
       </main>
       <Footer />

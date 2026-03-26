@@ -27,7 +27,7 @@ export default function WhatWeDo() {
     <section id="services" className="bg-white py-24 px-6 md:px-16 lg:px-24">
       <div className="max-w-container mx-auto">
         <FadeUp className="text-center mb-16">
-          <h2 className="font-syne font-bold text-4xl md:text-5xl text-dark">
+          <h2 className="font-bold text-4xl md:text-5xl text-dark">
             Take control of your software vision
           </h2>
           <span className="teal-underline mx-auto" />
@@ -43,7 +43,7 @@ export default function WhatWeDo() {
                 <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${card.iconBg} flex items-center justify-center`}>
                   <card.icon className="text-white" size={28} />
                 </div>
-                <h3 className="font-syne font-bold text-xl text-dark">{card.title}</h3>
+                <h3 className="font-bold text-xl text-dark">{card.title}</h3>
                 <p className="text-body leading-relaxed">{card.text}</p>
               </div>
             </FadeUp>
@@ -55,7 +55,7 @@ export default function WhatWeDo() {
           <div className="flex flex-wrap items-center justify-center gap-10">
             <span className="text-muted text-sm uppercase tracking-widest font-semibold">As seen in</span>
             {['Adweek', 'Forbes', 'Entrepreneur', 'Neil Patel'].map((brand) => (
-              <span key={brand} className="text-muted text-xl font-bold opacity-40 hover:opacity-70 transition-opacity font-syne">
+              <span key={brand} className="text-muted text-xl font-bold opacity-40 hover:opacity-70 transition-opacity">
                 {brand}
               </span>
             ))}

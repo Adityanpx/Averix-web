@@ -1,5 +1,6 @@
-/* Fonts loaded via Google Fonts CDN */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+/* Fonts are now self-hosted via next/font/google in layout.js          */
+/* CSS variables --font-syne, --font-jakarta, --font-mono are injected  */
+/* into <html> automatically — no @import needed here.                  */
 
 @import "tailwindcss";
 
@@ -24,9 +25,12 @@
   --color-border: #E2E8F0;
   --color-hero: #EEF2FA;
   --color-soft: #F5F7FB;
-  --font-family-syne: 'Syne', sans-serif;
-  --font-family-jakarta: 'Plus Jakarta Sans', sans-serif;
-  --font-family-mono: 'Space Mono', monospace;
+
+  /* Font families now come from next/font CSS variables */
+  --font-family-syne: Arial, sans-serif;
+  --font-family-jakarta: var(--font-jakarta), sans-serif;
+  --font-family-mono: var(--font-mono), monospace;
+
   --max-width-container: 1180px;
   --shadow-card: 0 4px 24px rgba(79,70,229,0.08);
   --shadow-card-hover: 0 12px 40px rgba(79,70,229,0.16);
@@ -44,7 +48,8 @@ html {
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  /* Uses the CSS variable injected by next/font — self-hosted, always available */
+  font-family: var(--font-jakarta), 'Plus Jakarta Sans', sans-serif;
   color: #1A2340;
   background: #ffffff;
 }
@@ -69,15 +74,15 @@ body {
 
 /* Custom utilities */
 .font-syne {
-  font-family: 'Syne', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .font-jakarta {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: var(--font-jakarta), 'Plus Jakarta Sans', sans-serif;
 }
 
 .font-mono {
-  font-family: 'Space Mono', monospace;
+  font-family: var(--font-mono), 'Space Mono', monospace;
 }
 
 .max-w-container {
