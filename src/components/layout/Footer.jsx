@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="w-8 h-8 rounded-lg bg-indigo flex items-center justify-center">
               <span className="font-bold text-white text-sm">Z</span>
             </div>
-            <span className="font-bold text-dark text-lg">ZenTech Softwares</span>
+            <span className="font-bold text-dark text-lg">Averix Solution</span>
           </div>
           <p className="text-body text-sm leading-relaxed max-w-xs">
             We are a software studio based in India, passionate about building tools that help businesses grow in the digital era.
@@ -60,8 +60,8 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-border">
         <div className="max-w-container mx-auto px-6 md:px-16 lg:px-24 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted text-sm">© 2025 ZenTech Softwares · All Rights Reserved</p>
-          <p className="text-muted text-sm">Made with ❤️ in India</p>
+          <p className="text-muted text-sm">© 2025 aditya@averixsolutions.com · All Rights Reserved</p>
+          <p className="text-muted text-sm"></p>
         </div>
       </div>
     </footer>

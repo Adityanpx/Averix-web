@@ -19,10 +19,10 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata = {
-  title: 'ZenTech Softwares — Turning Ideas Into Scalable Software',
-  description: 'Custom SaaS platforms, mobile apps, and business automation tools built by ZenTech Softwares.',
+  title: 'Averix Solution — Turning Ideas Into Scalable Software',
+  description: 'Custom SaaS platforms, mobile apps, and business automation tools built by Averix Solution.',
   icons: {
-    icon: '/z.png',
+    icon: '/Averix-favicon.png',
   },
 }
 

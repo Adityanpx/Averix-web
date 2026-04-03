@@ -7,7 +7,7 @@ export default function TrustBar() {
   return (
     <section className="bg-white border-y border-border py-5 overflow-hidden">
       <div className="flex items-center gap-3 text-xs text-muted uppercase tracking-widest font-semibold px-6 md:px-20 mb-3">
-        Delivered by ZenTech
+        Delivered by Averix
       </div>
       <div className="relative overflow-hidden">
         <div className="flex gap-12 animate-marquee whitespace-nowrap">

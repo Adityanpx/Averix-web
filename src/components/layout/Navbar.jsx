@@ -35,8 +35,8 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <img 
-            src="/zentech-logo.png" 
-            alt="ZenTech Logo" 
+            src="/Averix_Logo.png" 
+            alt="Averix Logo" 
             className="w-44 h-14 object-contain"
           />
           {/* <span className="font-syne font-bold text-dark text-lg hidden sm:inline">ZenTech Softwares</span> */}

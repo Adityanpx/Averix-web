@@ -518,7 +518,7 @@ export default function Products() {
             </h2>
             <span className="teal-underline" />
             <p className="text-body text-lg max-w-xl">
-              We don't just build — we ship. Here are 5 products designed, built, and deployed by ZenTech Softwares.
+              We don't just build — we ship. Here are 5 products designed, built, and deployed by Averix Solution.
             </p>
           </FadeUp>
 

@@ -111,7 +111,7 @@ function DashboardCard() {
             className="text-white text-xs font-semibold ml-1 font-mono"
             style={{ animation: 'screenBlink 3s ease-in-out infinite' }}
           >
-            ZenTech OS
+            Averix OS
           </span>
         </div>
         {/* Body */}
