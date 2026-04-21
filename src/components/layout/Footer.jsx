@@ -60,7 +60,8 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-border">
         <div className="max-w-container mx-auto px-6 md:px-16 lg:px-24 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted text-sm">© 2025 aditya@averixsolutions.com · All Rights Reserved</p>
+          <p className="text-muted text-sm">© 2025 
+aditya@averixsolutions.co.in · All Rights Reserved</p>
           <p className="text-muted text-sm"></p>
         </div>
       </div>

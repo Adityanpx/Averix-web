@@ -2,13 +2,13 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { MessageCircle, Phone, Send, Mail, User, MessageSquare, ArrowLeft } from 'lucide-react'
+import { MessageCircle, Phone, Send, Mail, User, MessageSquare } from 'lucide-react'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 
 const PHONE_NUMBER = '+919049606115'
 const WHATSAPP_URL = `https://wa.me/${PHONE_NUMBER.replace(/[^0-9]/g, '')}`
-const MAILTO_URL = 'mailto:zentechsoftwares@gmail.com'
+const MAILTO_URL = 'mailto:info@averixsolutions.co.in'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -39,14 +39,6 @@ export default function Contact() {
     <>
       <Navbar />
       <main className="min-h-screen bg-soft pt-24">
-        {/* Back Button */}
-        <div className="max-w-container mx-auto px-6 md:px-16 lg:px-24 py-8">
-          <Link href="/" className="inline-flex items-center gap-2 text-body hover:text-indigo transition-colors">
-            <ArrowLeft size={18} />
-            <span>Back to Home</span>
-          </Link>
-        </div>
-
         <div className="max-w-container mx-auto px-6 md:px-16 lg:px-24 pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             {/* Left Side - Contact Form */}
@@ -200,7 +192,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-syne font-bold text-dark">Email us directly</h3>
-                  <p className="text-body text-sm">zentechsoftwares@gmail.com</p>
+                  <p className="text-body text-sm">info@averixsolutions.co.in</p>
                 </div>
               </motion.a>
 
@@ -208,7 +200,10 @@ export default function Contact() {
               <div className="bg-gradient-to-br from-indigo to-purple-600 rounded-3xl p-8 text-white">
                 <h3 className="font-syne font-bold text-xl mb-4">Visit our office</h3>
                 <p className="text-white/80 leading-relaxed">
-                  We are based in India and work with clients worldwide. Schedule a meeting and we will be happy to assist you.
+                  Flat No. 302, NR Jakat Naka<br />
+                  Dhamal Wadi, Dhamal Properties<br />
+                  Phursungi, Pune – 412308<br />
+                  Maharashtra, India
                 </p>
                 <div className="mt-6 flex items-center gap-2">
                   <span className="w-2 h-2 bg-teal rounded-full animate-pulse"></span>
