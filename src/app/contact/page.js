@@ -6,7 +6,7 @@ import { MessageCircle, Phone, Send, Mail, User, MessageSquare } from 'lucide-re
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 
-const PHONE_NUMBER = '+919049606115'
+const PHONE_NUMBER = '+919607024225'
 const WHATSAPP_URL = `https://wa.me/${PHONE_NUMBER.replace(/[^0-9]/g, '')}`
 const MAILTO_URL = 'mailto:info@averixsolutions.co.in'
 
