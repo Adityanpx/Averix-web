@@ -21,16 +21,17 @@ export const products = [
     id: 2,
     slug: "quickcab",
     name: "QuickCab",
-    fullName: "QuickCab — Driver Community Platform",
+    fullName: "QuickCab — Owner of the Platform",
     badges: ["Mobile App", "Community Platform"],
     badgeColors: ["coral", "teal"],
     description: "Built exclusively for the driver community. QuickCab connects drivers, manages ride assignments, tracks daily earnings, and builds a reliable local transport network — designed for ease of use at every tech level.",
     tech: ["Flutter", "Firebase", "Google Maps API"],
     liveUrl: "https://play.google.com/store/apps/details?id=com.quickcabpune.quickcab&hl=en_IN",
-    imageUrl: "/taxi.webp", // Add image URL here: "https://example.com/image.png" or "/image.png" from public folder
+    imageUrl: "/quickcab-app.png", // Add image URL here: "https://example.com/image.png" or "/image.png" from public folder
+    imageMaxWidth: 220, // portrait phone screenshot — narrower cap keeps its height in proportion
     rating: 4.9,
     review: "This app completely changed how our driver network operates. Bookings are smooth and we finally have real-time visibility.",
-    reviewer: { name: "Govind Patil", role: "Driver Community Lead", initials: "GP", color: "#0ABFA3" },
+    reviewer: { name: "Govind Kumbhar", role: "Driver Community Lead", initials: "GP", color: "#0ABFA3" },
     device: "phone",
     screenColor: "from-teal-400 to-cyan-500",
     featured: false,

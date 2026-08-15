@@ -464,7 +464,8 @@ function RowInner({ product, isEven, ratingRef, ratingInView, deviceRef, deviceO
             href={product.liveUrl ? `${product.liveUrl}` : '#'}
             target={product.liveUrl ? '_blank' : '_self'}
             rel={product.liveUrl ? 'noopener noreferrer' : undefined}
-            className="block w-full max-w-md group"
+            className="block w-full group"
+            style={{ maxWidth: product.imageMaxWidth ? `${product.imageMaxWidth}px` : '28rem' }}
           >
             <div className="relative rounded-xl overflow-hidden shadow-2xl border border-gray-200 transform transition-transform group-hover:scale-[1.02] group-hover:shadow-2xl">
               {/* Browser bar */}
@@ -483,8 +484,7 @@ function RowInner({ product, isEven, ratingRef, ratingInView, deviceRef, deviceO
                 <img
                   src={product.imageUrl}
                   alt={product.name}
-                  className="w-full h-auto object-cover"
-                  style={{ maxHeight: '320px' }}
+                  className="w-full h-auto block"
                 />
               </div>
             </div>
