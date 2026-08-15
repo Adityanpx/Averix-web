@@ -8,7 +8,7 @@ import Footer from '@/components/layout/Footer'
 const team = [
   {
     name: 'Suresh Gavali',
-    role: 'Founder & CEO',
+    role: 'Founder & Director',
     email: 'info@averixsolutions.co.in',
     initials: 'SG',
     gradient: 'from-indigo-500 to-purple-600',
@@ -16,7 +16,7 @@ const team = [
   },
   {
     name: 'Aditya Gavali',
-    role: 'Software Developer',
+    role: 'CEO & Co-Founder',
     email: 'aditya@averixsolutions.co.in',
     initials: 'AG',
     gradient: 'from-teal-400 to-cyan-500',

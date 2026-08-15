@@ -36,7 +36,7 @@ export default function Navbar() {
           <img
             src="/Averix_Logo.png"
             alt="Averix Logo"
-            className="h-10 md:h-14 w-auto"
+            className="h-14 md:h-16 w-auto"
           />
         </Link>
 
@@ -111,7 +111,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-t border-border px-6 md:px-16 lg:px-24 py-6 flex flex-col gap-4"
+            className="md:hidden relative z-50 bg-white border-t border-border px-6 md:px-16 lg:px-24 py-6 flex flex-col gap-4"
           >
             {navLinks.map((link) => (
               <Link

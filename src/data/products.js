@@ -26,7 +26,7 @@ export const products = [
     badgeColors: ["coral", "teal"],
     description: "Built exclusively for the driver community. QuickCab connects drivers, manages ride assignments, tracks daily earnings, and builds a reliable local transport network — designed for ease of use at every tech level.",
     tech: ["Flutter", "Firebase", "Google Maps API"],
-    liveUrl: null,
+    liveUrl: "https://play.google.com/store/apps/details?id=com.quickcabpune.quickcab&hl=en_IN",
     imageUrl: "/taxi.webp", // Add image URL here: "https://example.com/image.png" or "/image.png" from public folder
     rating: 4.9,
     review: "This app completely changed how our driver network operates. Bookings are smooth and we finally have real-time visibility.",

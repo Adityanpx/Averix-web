@@ -412,7 +412,7 @@ function RowInner({ product, isEven, ratingRef, ratingInView, deviceRef, deviceO
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-indigo font-semibold text-sm hover:underline"
           >
-            <ExternalLink size={14} /> {product.liveUrl}
+            <ExternalLink size={14} /> {product.liveUrl.includes('play.google.com') ? 'Get it on Google Play' : product.liveUrl}
           </a>
         )}
 
@@ -475,7 +475,7 @@ function RowInner({ product, isEven, ratingRef, ratingInView, deviceRef, deviceO
                   <div className="w-3 h-3 rounded-full bg-green-400" />
                 </div>
                 <div className="flex-1 bg-white rounded-md px-3 py-1.5 ml-2 text-xs text-gray-600 truncate border border-gray-200 font-mono">
-                  {product.liveUrl ? `🔗 ${product.liveUrl}` : `📱 ${product.name}`}
+                  {product.liveUrl ? (product.liveUrl.includes('play.google.com') ? '📱 Google Play' : `🔗 ${product.liveUrl}`) : `📱 ${product.name}`}
                 </div>
               </div>
               {/* Project screenshot/image */}
